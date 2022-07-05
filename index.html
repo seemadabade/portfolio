@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>My profile</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            header{
+                border: 1px solid gray;
+                box-shadow: 2px 2px 2px gray;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+            }
+            .title{
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 30px;
+            }
+            .nav-bar{
+                display: flex;
+            }
+            .nav-bar div{
+                margin-top: 30px;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                padding: 9px;
+               
+            }
+            .banner{
+                margin-top: 5px;
+                box-shadow: 2px 2px 2px gray;
+                border: 1px solid gray;
+                background-image: url("public/Images/banner.png");
+                height: 300px;
+            }
+            .side-panel{
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                width: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 300px;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body class="container-fluid">
+        <header>
+            <div class="title">
+                PORTFOLIO
+            </div>
+            <div class="nav-bar">
+                <div>Home</div>
+                <div>About</div>
+                <div>Services</div>
+                <div>My Project</div>
+            </div>
+        </header>
+        <div class="banner">
+            <div class="side-panel">
+                <div>
+                    <h1>I am Web Designer </h1>
+                    <p>Check My Projects </p>
+                    <div>
+                        <button class="btn btn-danger">Signin</button>
+                        <button class="btn btn-warning">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
